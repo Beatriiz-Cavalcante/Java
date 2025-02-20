@@ -3,7 +3,7 @@ package exercicios;
 
 import java.util.Scanner;
 
-public class exercicios15e16 {
+public class exercicios15 {
     public static void main(String[] args){
         // 15 - Receber um número e informar se ele esta entre 100 e 200
         Scanner leitor = new Scanner(System.in);

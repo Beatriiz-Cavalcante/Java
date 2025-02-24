@@ -22,7 +22,7 @@ public class exercicio22 {
         for(; i<3; i++){
             System.out.println("Digite o nome do produto");
             nomeProduto = input.nextLine();
-            System.out.println("Digite o prepo de custo do produto");
+            System.out.println("Digite o preço de custo do produto");
             precoCusto = input.nextFloat();
             System.out.println("Digite o preço de venda do produto");
             precoVenda = input.nextFloat();

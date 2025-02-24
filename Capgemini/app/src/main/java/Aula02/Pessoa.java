@@ -1,13 +1,12 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package Aula02;
 
-/**
- *
- * @author comer.recifedoces
- */
 public class Pessoa {
-    
+    //Atributos
+    float peso;
+    float altura;
+    //métodos
+    public float calcularIMC(){
+       float imc = peso / (altura * altura); 
+       return imc;
+    }
 }

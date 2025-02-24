@@ -6,8 +6,9 @@ public class Pessoa {
     private float altura;
     
     //método construtor
-    public Pessoa(){
-        System.out.println("bla");
+    public Pessoa(float peso, float altura){
+        this.peso = peso;
+        this.altura = altura;
     }
     //métodos
     public float calcularIMC(){

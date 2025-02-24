@@ -6,9 +6,9 @@ public class principal {
         Scanner input = new Scanner(System.in);
         Pessoa p1 = new Pessoa();
         System.out.println("Digite o peso de uma pessoa");
-        p1.peso = input.nextFloat();
+        p1.setPeso(input.nextFloat());
         System.out.println("Digite a altura da pessoa");
-        p1.altura = input.nextFloat();
+        p1.setAltura(input.nextFloat()); 
         System.out.println("IMC = " + p1.calcularIMC());
     }
 }

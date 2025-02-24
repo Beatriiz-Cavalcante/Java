@@ -4,6 +4,11 @@ public class Pessoa {
     //Atributos
     private float peso;
     private float altura;
+    
+    //método construtor
+    public Pessoa(){
+        System.out.println("bla");
+    }
     //métodos
     public float calcularIMC(){
        float imc = peso / (altura * altura); 

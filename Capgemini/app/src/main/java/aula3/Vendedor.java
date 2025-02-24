@@ -1,8 +1,32 @@
 package aula3;
 
-public class Vendedor {
-    private String nome;
-    private String cpf;
-    private date datanascimento;
+public class Vendedor extends Funcionario {
+    
+    private int totalItensVendidos;
+    private float comissaoPorItem;
+    
+    public Vendedor(){
+        super();
+    }
+
+    public int getTotalItensVendidos() {
+        return totalItensVendidos;
+    }
+
+    public void setTotalItensVendidos(int totalItensVendidos) {
+        this.totalItensVendidos = totalItensVendidos;
+    }
+
+    public float getComissaoPorItem() {
+        return comissaoPorItem;
+    }
+
+    public void setComissaoPorItem(float comissaoPorItem) {
+        this.comissaoPorItem = comissaoPorItem;
+    }
+    
+    public float calcularsalario(){
+        return super.getSalario() + (this.comissaoPorItem * totalItensVendidos);
+    }
     
 }

@@ -27,7 +27,7 @@ public class exercicio20 {
             anoFabricacao = input.nextInt();
             System.out.println("\ndigite o valor do veículo");
             valorCarro = input.nextFloat();
-            if(anoFabricacao <=200){
+            if(anoFabricacao <=2000){
                 desconto = 0.12f;
             } else {
                 desconto = 0.07f;
@@ -39,10 +39,10 @@ public class exercicio20 {
             
             System.out.printf("\nO valor do desconto foi de: %f", valorDesconto);
             System.out.printf("\nO valor final é: %f", valorPagar);
-            System.out.println("\nDeseja fazer mais cadastros?\n-S\nN");
+            System.out.println("\nDeseja fazer mais cadastros?\n-S\n-N");
             desejaRepetir = input.next().charAt(0);
         }
         System.out.printf("Total de carros semi novos: %d", totalCarrosSemiNovos);
-        System.out.printf("Total de carros: %d", totalCarros);
+        System.out.printf("\nTotal de carros: %d", totalCarros);
     }    
 }

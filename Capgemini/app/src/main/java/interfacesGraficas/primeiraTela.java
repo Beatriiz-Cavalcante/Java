@@ -4,6 +4,8 @@
  */
 package interfacesGraficas;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author comer.recifedoces
@@ -162,7 +164,7 @@ public class primeiraTela extends javax.swing.JFrame {
 
     private void jButton1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseClicked
         // TODO add your handling code here:
-        JOpLionPane.showMessageDialog(rootPane, "Seja Bem-vindo");
+        JOptionPane.showMessageDialog(rootPane, "Seja Bem-vindo");
     }//GEN-LAST:event_jButton1MouseClicked
 
     /**
